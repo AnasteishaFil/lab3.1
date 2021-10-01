@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	line-height: 1.6;
+	background: linear-gradient(to top left, yellow, rgb(240, 140, 40)) no-repeat;
+}
+h1, h2, h3, h4, h5, h6 {margin: 0}
+
+section{
+	width: 100%;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main{
+	width: 60%;
+	margin: 0 auto;
+	background: rgb(250, 250, 200);
+	border-radius: 35px;
+	padding: 30px 10px 30px 10px;
+	font-family: 'Marck Script', cursive;
+	text-align: center;
+	font-size: 27px;
+}
+
+.title{
+	width: 60%;
+	margin: 0 auto;
+	animation: vihod 3s ease-in;
+}
+.parrot{
+	width: 80px;
+	display: block;
+	margin: 5px auto;
+}
+h1{
+	font-size: 70px;
+	color: rgb(240, 140, 40);
+	text-align: center;
+}
+img{
+	width: 550px;
+	transition: 0.2s linear;   
+}
+img:hover {
+	box-shadow:
+	  1px 1px rgb(250, 140, 100),
+	  2px 2px rgb(250, 140, 100),
+	  3px 3px rgb(250, 140, 100),
+	  4px 4px rgb(250, 140, 100),
+	  5px 5px rgb(250, 140, 100),
+	  6px 6px rgb(250, 140, 100),
+	  7px 7px rgb(250, 140, 100),
+	  8px 8px rgb(250, 140, 100),
+	  9px 9px rgb(250, 140, 100),
+	  10px 10px rgb(250, 140, 100),
+	  11px 11px rgb(250, 140, 100),
+	  12px 12px rgb(250, 140, 100);
+	-webkit-transform: translateX(-7px);
+	transform: translateX(-7px);
+
+ }
+
+@keyframes vihod{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
